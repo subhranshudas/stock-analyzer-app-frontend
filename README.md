@@ -1,8 +1,49 @@
-# React + Vite
+# Stock Financial Analysis Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application for performing financial analysis on stocks using historical data. Built with React and Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interactive data visualization
+- Historical stock data analysis
+- Customizable analysis parameters
+
+## Tech Stack
+
+- **React 18**: For building the user interface
+- **Vite**: For fast development and build tooling
+- **D3.js**: For data visualization
+- **Axios**: For making HTTP requests to fetch stock data
+- **Tailwind CSS**: For styling the application
+
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/subhranshudas/stock-analyzer-app-frontend.git
+   cd stock-analyzer-app-frontend
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser:**
+   Navigate to `http://localhost:5173` to view the application.
+
+## Development
+
+The application includes hot module replacement (HMR) for fast development. Ensure you have access to the necessary stock data API and configure any required API keys in a `.env` file.
+
+## Deployment
+
+TODO: Add deployment instructions
